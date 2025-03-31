@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hegseth Coin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+      max-width: 600px;
+    }
+    .btn {
+      margin-top: 2rem;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      background: #facc15;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #eab308;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .two-col {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .two-col > div {
+      flex: 1 1 45%;
+    }
+    .tokenomics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #111;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    a {
+      color: #facc15;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TRUST THE FROG. MEME-VEST WISELY.</h1>
+    <p>$HEGSETH is a deflationary memecoin built on BNB. No taxes. No roadmap. Just frogs, flex, and freedom.</p>
+    <a href="#" class="btn">Buy $HEGSETH</a>
+  </header>
+
+  <section>
+    <h2>About the Coin</h2>
+    <div class="two-col">
+      <div><img src="/images/frogface.png" alt="Hegseth Frog" style="width: 100%; border-radius: 12px;" /></div>
+      <div>
+        <p>
+          Born from the digital chaos of meme culture and the hardline aesthetics of liberty, $HEGSETH is a no-tax, no-utility memecoin that rallies around pure internet energy. No presale. No VC. Just vibes and volatility.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Roadmap</h2>
+    <ul>
+      <li><strong>Phase 1:</strong> Deploy the coin. Trigger the chaos.</li>
+      <li><strong>Phase 2:</strong> Get listed. Get noticed. Get memed.</li>
+      <li><strong>Phase 3:</strong> Meme-world domination: Tier 1 CEX, NFTs, merch, and more.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Tokenomics</h2>
+    <div class="tokenomics-grid">
+      <div>🔁 0% Buy/Sell Tax</div>
+      <div>🔥 Burn Mechanism</div>
+      <div>🧠 No Presale / No VC</div>
+      <div>💰 1,000,000,000 Total Supply</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contract: [Your Token Address Here]</p>
+    <p><a href="#">Telegram</a> | <a href="#">Twitter</a> | <a href="#">BSCScan</a></p>
+    <p>$HEGSETH is a meme coin. No utility, no promises, just vibes. DYOR.</p>
+  </footer>
+</body>
+</html>
